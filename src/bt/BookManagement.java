@@ -207,8 +207,10 @@ public class BookManagement {
                     manager.searchByAuthor();
                     break;
                 case 8:
+                    manager.searchByExport();
                     break;
                 case 9:
+                    manager.bookStatistics();
                     break;
                 case 10:
                     System.out.println("Chương trình kết thúc.");
